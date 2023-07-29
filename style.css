@@ -13,6 +13,7 @@
 }
 .logo-pic{
     width: 150px;
+    cursor: pointer;
 }
 .menu{
     display: flex;
@@ -27,4 +28,36 @@
 }
 .item:hover{
     color: bisque;
+}
+.banner-photo{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content:space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg,#181717,#3e3d3d);
+    color: white;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.discretion{
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    
 }
