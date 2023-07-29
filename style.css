@@ -122,3 +122,23 @@
 #service-title{
     color: white;
 }
+.footer{
+    background-color: black;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style: none;
+    padding: 50px;
+    
+}
+.footer-title{
+    margin-bottom: 25px;
+    font-size: bold;
+
+}
+.footer-p{
+    margin-top: 10px;
+
+}
