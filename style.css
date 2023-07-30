@@ -131,6 +131,8 @@
     color: white;
     list-style: none;
     padding: 50px;
+    margin-bottom: 20px;
+    
     
 }
 .footer-title{
@@ -141,4 +143,23 @@
 .footer-p{
     margin-top: 10px;
 
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+footer{
+    color: white;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+footer hr{
+    margin: auto ;
 }
